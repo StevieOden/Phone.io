@@ -8,12 +8,12 @@
         android:label="@string/app_name"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
-        android:theme="@style/Theme.PhoneIo">
+        android:theme="@style/Theme.MyApplication8">
         <activity
-            android:name=".EditProfile"
+            android:name=".FavoriteDetailActivity"
             android:exported="true" />
         <activity
-            android:name=".HomePage"
+            android:name=".Opening"
             android:exported="true" />
         <activity
             android:name=".SignInActivity"
@@ -22,9 +22,19 @@
             android:name=".SignUpActivity"
             android:exported="true" />
         <activity
+            android:name=".MainActivity"
+            android:exported="true" />
+        <activity
+            android:name=".FavoriteActivity"
+            android:exported="true" />
+        <activity
+            android:name=".OnlineDetailActivity"
+            android:exported="true" />
+        <activity
             android:name=".SplashScreen"
             android:exported="true"
             android:theme="@style/Theme.AppCompat.Light.NoActionBar.FullScreen">
+            >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -32,10 +42,7 @@
             </intent-filter>
         </activity>
         <activity
-            android:name=".MainActivity"
-            android:exported="true" />
-        <activity
-            android:name=".Opening"
+            android:name=".OnlineActivity"
             android:exported="true" />
     </application>
 
